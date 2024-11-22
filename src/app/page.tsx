@@ -48,9 +48,6 @@ export default function Home() {
           <Card variant="outlined">{card}</Card>
         </Box>
       </div>
-      <div className="card">
-        
-      </div>
     </div>
   );
 }
