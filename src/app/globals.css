@@ -40,3 +40,411 @@ a {
     color-scheme: dark;
   }
 }
+/* form login */
+.form-login{
+  text-align: center;
+  width: 720px;
+  margin: 0px auto;
+  padding: 30px 20px;
+  background-color: #4e4b4b;
+  color: #fff;
+
+}
+.title{
+  margin: 20px 0px;
+  padding: 10px 20px;
+  font-size: 16px;
+
+}
+.title p {
+  opacity: 0.5;
+}
+/* login */
+.login{
+  padding: 10px 20px;
+  margin: 20px 0px;
+  position: relative;
+}
+.login-phone label{
+  position: absolute;
+  top: 2px;
+  margin: 0px auto;
+}
+.login-phone input{
+  width: 400px;
+  height: 45px;
+  border-radius: 5px;
+}
+.login-phone{
+  padding: 20px 0px;
+  outline: none;
+  border-radius: 5px;
+}
+/* login password */
+
+.login-password label{
+  position: absolute;
+  bottom: 80px;
+}
+.login-password input{
+  width: 400px;
+  height: 45px;
+  border-radius: 5px;
+}
+.login-password{
+  padding: 20px 0px;
+  outline: none;
+  border-radius: 5px;
+}
+.button{
+  background-color: #171717;
+  width: 400px;
+  margin: 0px auto;
+  border-radius: 5px;
+  padding: 5px 0px;
+}
+.button button{
+  color: #fff;
+}
+
+.forgot{
+  padding:20px 0px;
+}
+.forgot button{
+  color: #0a0a0a;
+}
+/* màn 2 verify */
+.verify{
+  text-align: center;
+  width: 720px;
+  margin: 0px auto;
+  padding: 30px 20px;
+  background-color: #4e4b4b;
+}
+.verify-header{
+  padding: 20px 0px;
+  margin: 30px 0px;
+
+}
+.verify-header h2{
+  padding: 10px 0px;
+
+}
+.fill{
+  margin: 10px 0px;
+  padding: 10px 20px;
+}
+.fill{
+  width: 400px;
+  margin: 0px auto;
+}
+.fill input{
+  width: 50px;
+  height: 40px;
+  margin: 10px 5px;
+  
+}
+.not-fill{
+  padding: 10px 0px;
+  margin: 20px 0px;
+}
+.submit-fill{
+  width: 350px;
+  height: 40px;
+  margin: 20px auto;
+  background-color:#171717;
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 10px 0px;
+
+}
+.header{
+  display: flex;
+  width: 100%;
+}
+.list-item{
+  width: 20%;
+  padding: 30px 0px 20px 20px;
+  list-style: none;
+}
+.list-item li{
+  padding: 20px 20px;
+}
+.list-item li:hover{
+  background-color: #BBBBBB;
+}
+/*  */
+.product-table {
+  width: 70%;
+  padding: 20px 0px 0px 0px;
+}
+.name-product{
+  font-size: 20px;
+  padding: 20px 0px 0px 0px;
+}
+/*  */
+.option-location {
+  padding: 10px 20px 0px 20px;
+  margin: 10px 0px;
+
+}
+.option-location select {
+    padding: 5px 40px;
+    margin: 0px 20px;
+    outline: none;
+    border-radius: 5px;
+}
+.option-location input{
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    
+}
+.icon-search {
+  padding: 10px 0px 0px 0px;
+}
+
+/*  */
+.add-vendor{
+  display: flex;
+  width: 150px;
+  height: 50px;
+  background-color: #4e4b4b;
+  float: right;
+  padding: 12px 0px 15px 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+.add{
+  padding: 5px 0px;
+}
+
+
+/* verify indentity */
+.verify-identity{
+  margin: 50px auto;
+  width: 720px;
+  background-color: #4e4b4b;
+
+}
+.verify-identity h1{
+  text-align: center;
+  padding: 20px 0px;
+}
+.verify-identity p{
+  text-align: center;
+}
+.upload-box{
+  margin: 40px 40px;
+}
+.upload-camera{
+  width: 250px;
+  margin: 0px 20px;
+  height: 100px;
+  padding: 0px 20px;
+}
+.upload-side{
+  margin: 20px auto;
+  padding: 0px 100px;
+}
+.upload-container{
+  display: flex;
+}
+.upload-button{
+  margin: 0px auto;
+  text-align: center;
+}
+.submit-button button{
+  width: 400px;
+  background-color: #4e4b4b;
+  outline: none;
+  border-radius: 5px;
+  color: #000;
+}
+/* information */
+.information{
+  position: relative;
+  margin: 0px auto;
+  text-align: center;
+  
+}
+.full-name{
+  margin: 20px 0px;
+  outline: none;
+}
+.full-name label{
+  position: absolute;
+  top: -30px;
+  margin: 0px auto;
+  outline: none;
+  padding: 10px 20px;
+}
+.full-name input{
+  width: 400px;
+  height: 45px;
+  padding: 0px 20px;
+  border-radius: 10px;
+  outline: none;
+
+}
+/*  */
+.date-birh{
+  margin: 40px 0px;
+}
+.date-birh  label{
+  position: absolute;
+  top: 55px;
+  margin: 0px auto;
+  padding: 10px 20px;
+}
+.date-birh  input{
+  width: 400px;
+  height: 45px;
+  padding: 0px 20px;
+  border-radius: 10px;
+  outline: none;
+}
+/*  */
+.gst-number {
+  margin: 40px 0px;
+}
+.gst-number label{
+  position: absolute;
+  bottom: 62%;
+  margin: 0px auto;
+  padding: 10px 20px;
+}
+.gst-number input{
+  width: 400px;
+  height: 45px;
+  padding: 0px 20px;
+  border-radius: 10px;
+  outline: none;
+  
+}
+/*  */
+.Address {
+  margin: 40px 0px;
+}
+.Address label{
+  position: absolute;
+ bottom: 44%;
+  margin: 0px auto;
+  padding: 10px 20px;
+
+}
+.Address input{
+  width: 400px;
+  height: 45px;
+  padding: 0px 20px;
+  border-radius: 10px;
+  outline: none;
+  
+}
+/*  */
+.city{
+  margin: 40px 0px;
+}
+.city label{
+  position: absolute;
+  bottom: 26%;
+  margin: 0px auto;
+  padding: 10px 20px;
+
+}
+.city input{
+  width: 400px;
+  height: 45px;
+  padding: 0px 20px;
+  border-radius: 10px;
+  outline: none;
+  
+}
+/*  */
+.state{
+  margin: 40px 0px;
+}
+.state label{
+  position: absolute;
+  bottom: 38px;
+  margin: 0px auto;
+  padding: 10px 20px;
+
+}
+.state input{
+  width: 400px;
+  height: 45px;
+  padding: 0px 20px;
+  border-radius: 10px;
+  outline: none;
+  
+}
+/* verify-driver */
+
+.upload-box-1{
+  width: 400px;
+  margin: 40px auto;
+}
+.upload-camera-1{
+  width: 400px;
+  margin: 0px 20px;
+  height: 100px;
+  padding: 0px 20px;
+}
+.upload-side-1{
+  margin: 20px auto;
+  padding: 0px 160px;
+}
+/*  */
+.setup-vehicle{
+  position:relative ;
+  text-align: center;
+}
+.vehicle {
+  margin: 40px auto;
+}
+.vehicle label{
+  position: absolute;
+  top: -32px;
+  margin: 0px auto;
+  padding: 10px 20px;
+
+}
+.vehicle input{
+  width: 400px;
+  height: 45px;
+  padding: 0px 20px;
+  border-radius: 10px;
+  outline: none;
+  
+}
+/*  */
+.vehicolorcle {
+  margin: 40px auto;
+}
+.color label{
+  position: absolute;
+  bottom: 28%;
+  margin: 0px auto;
+  padding: 10px 20px;
+
+}
+.color input{
+  width: 400px;
+  height: 45px;
+  padding: 0px 20px;
+  border-radius: 10px;
+  outline: none;
+  
+}
+/* home */
+.home{
+  width: 720px;
+  text-align: center;
+  margin: 40px auto;
+}
+.card-id{
+  display: flex;
+}
