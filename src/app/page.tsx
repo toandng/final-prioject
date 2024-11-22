@@ -33,21 +33,24 @@ const card = (
 export default function Home() {
   return (
     <div className="home">
-      <div>
-        <h2>Welcome</h2>
-        <p>Statitics from</p>
+      <div className="home-header">
+        <div>
+          <h2>Welcome</h2>
+          <p>Statitics from</p>
+        </div>
+        <div className="card-id">
+          <Box sx={{ minWidth: 275 }}>
+            <Card variant="outlined">{card}</Card>
+          </Box>
+          <Box sx={{ minWidth: 275 }}>
+            <Card variant="outlined">{card}</Card>
+          </Box>
+          <Box sx={{ minWidth: 275 }}>
+            <Card variant="outlined">{card}</Card>
+          </Box>
+        </div>
       </div>
-      <div className="card-id">
-        <Box sx={{ minWidth: 100 }}>
-          <Card variant="outlined">{card}</Card>
-        </Box>
-        <Box sx={{ minWidth: 100 }}>
-          <Card variant="outlined">{card}</Card>
-        </Box>
-        <Box sx={{ minWidth: 1 }}>
-          <Card variant="outlined">{card}</Card>
-        </Box>
-      </div>
+      
     </div>
   );
 }

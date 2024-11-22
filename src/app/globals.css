@@ -445,6 +445,13 @@ a {
   text-align: center;
   margin: 40px auto;
 }
+.home-header{
+  background-color: #0a0a0a;
+  color: #fff;
+}
 .card-id{
   display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+  padding: 20px 0px;
 }
